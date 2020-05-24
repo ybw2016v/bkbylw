@@ -1,0 +1,110 @@
+\documentclass[10pt]{article}
+\usepackage{pgf,tikz,pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\pagestyle{empty}
+\begin{document}
+\definecolor{qqqqff}{rgb}{0,0,1}
+\definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1}
+\definecolor{zzttqq}{rgb}{0.6,0.2,0}
+\definecolor{uuuuuu}{rgb}{0.26666666666666666,0.26666666666666666,0.26666666666666666}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+\clip(-11.194167526223206,-6.305212530395761) rectangle (16.64612873227008,10.776953581212318);
+\fill[line width=2pt,color=zzttqq,fill=zzttqq,fill opacity=0.10000000149011612] (0,0) -- (2,0) -- (3,1.7320508075688774) -- (2,3.4641016151377553) -- (0,3.4641016151377557) -- (-1,1.732050807568879) -- cycle;
+\fill[line width=2pt,color=zzttqq,fill=zzttqq,fill opacity=0.10000000149011612] (2,0) -- (0,0) -- (-1,-1.7320508075688774) -- (0,-3.4641016151377553) -- (2,-3.4641016151377557) -- (3,-1.732050807568879) -- cycle;
+\fill[line width=2pt,color=zzttqq,fill=zzttqq,fill opacity=0.10000000149011612] (0,0) -- (-1,1.732050807568879) -- (-3,1.7320508075688799) -- (-4,0) -- (-3,-1.7320508075688774) -- (-1,-1.7320508075688792) -- cycle;
+\fill[line width=2pt,color=zzttqq,fill=zzttqq,fill opacity=0.10000000149011612] (3,1.7320508075688774) -- (2,0) -- (3,-1.7320508075688772) -- (5,-1.732050807568878) -- (6,0) -- (5,1.7320508075688767) -- cycle;
+\fill[line width=2pt,color=zzttqq,fill=zzttqq,fill opacity=0.10000000149011612] (3,1.7320508075688774) -- (5,1.7320508075688767) -- (6,3.464101615137755) -- (5,5.196152422706635) -- (3,5.1961524227066365) -- (2,3.4641016151377584) -- cycle;
+\fill[line width=2pt,color=zzttqq,fill=zzttqq,fill opacity=0.10000000149011612] (0,3.4641016151377557) -- (2,3.4641016151377553) -- (3,5.196152422706631) -- (2,6.928203230275508) -- (0,6.92820323027551) -- (-1,5.196152422706634) -- cycle;
+\fill[line width=2pt,color=zzttqq,fill=zzttqq,fill opacity=0.10000000149011612] (-3,1.7320508075688799) -- (-1,1.732050807568879) -- (0,3.464101615137758) -- (-1,5.196152422706637) -- (-3,5.196152422706639) -- (-4,3.464101615137761) -- cycle;
+\draw [line width=0.8pt,color=qqqqff,fill=qqqqff,fill opacity=0.25] (1.0177639918626207,1.708867528348029) circle (1.2cm);
+\draw [line width=0.8pt,color=qqqqff,fill=qqqqff,fill opacity=0.25] (3.9980568028240433,3.4352566566488454) circle (1.2cm);
+\draw [line width=0.8pt,color=qqqqff,fill=qqqqff,fill opacity=0.25] (0.999591474722612,5.143473267809653) circle (1.2cm);
+\draw [line width=0.8pt,color=qqqqff,fill=qqqqff,fill opacity=0.25] (-2.0356274129362246,3.398539424956995) circle (1.2cm);
+\draw [line width=0.8pt,color=qqqqff,fill=qqqqff,fill opacity=0.25] (-2,0) circle (1.2cm);
+\draw [line width=0.8pt,color=qqqqff,fill=qqqqff,fill opacity=0.25] (4,0) circle (1.2cm);
+\draw [line width=0.8pt,color=qqqqff,fill=qqqqff,fill opacity=0.25] (1.0177639918626207,-1.780255762533621) circle (1.2cm);
+\draw [line width=2pt,color=zzttqq] (0,0)-- (2,0);
+\draw [line width=2pt,color=zzttqq] (2,0)-- (3,1.7320508075688774);
+\draw [line width=2pt,color=zzttqq] (3,1.7320508075688774)-- (2,3.4641016151377553);
+\draw [line width=2pt,color=zzttqq] (2,3.4641016151377553)-- (0,3.4641016151377557);
+\draw [line width=2pt,color=zzttqq] (0,3.4641016151377557)-- (-1,1.732050807568879);
+\draw [line width=2pt,color=zzttqq] (-1,1.732050807568879)-- (0,0);
+\draw [line width=2pt,color=zzttqq] (2,0)-- (0,0);
+\draw [line width=2pt,color=zzttqq] (0,0)-- (-1,-1.7320508075688774);
+\draw [line width=2pt,color=zzttqq] (-1,-1.7320508075688774)-- (0,-3.4641016151377553);
+\draw [line width=2pt,color=zzttqq] (0,-3.4641016151377553)-- (2,-3.4641016151377557);
+\draw [line width=2pt,color=zzttqq] (2,-3.4641016151377557)-- (3,-1.732050807568879);
+\draw [line width=2pt,color=zzttqq] (3,-1.732050807568879)-- (2,0);
+\draw [line width=2pt,color=zzttqq] (0,0)-- (-1,1.732050807568879);
+\draw [line width=2pt,color=zzttqq] (-1,1.732050807568879)-- (-3,1.7320508075688799);
+\draw [line width=2pt,color=zzttqq] (-3,1.7320508075688799)-- (-4,0);
+\draw [line width=2pt,color=zzttqq] (-4,0)-- (-3,-1.7320508075688774);
+\draw [line width=2pt,color=zzttqq] (-3,-1.7320508075688774)-- (-1,-1.7320508075688792);
+\draw [line width=2pt,color=zzttqq] (-1,-1.7320508075688792)-- (0,0);
+\draw [line width=2pt,color=zzttqq] (3,1.7320508075688774)-- (2,0);
+\draw [line width=2pt,color=zzttqq] (2,0)-- (3,-1.7320508075688772);
+\draw [line width=2pt,color=zzttqq] (3,-1.7320508075688772)-- (5,-1.732050807568878);
+\draw [line width=2pt,color=zzttqq] (5,-1.732050807568878)-- (6,0);
+\draw [line width=2pt,color=zzttqq] (6,0)-- (5,1.7320508075688767);
+\draw [line width=2pt,color=zzttqq] (5,1.7320508075688767)-- (3,1.7320508075688774);
+\draw [line width=2pt,color=zzttqq] (3,1.7320508075688774)-- (5,1.7320508075688767);
+\draw [line width=2pt,color=zzttqq] (5,1.7320508075688767)-- (6,3.464101615137755);
+\draw [line width=2pt,color=zzttqq] (6,3.464101615137755)-- (5,5.196152422706635);
+\draw [line width=2pt,color=zzttqq] (5,5.196152422706635)-- (3,5.1961524227066365);
+\draw [line width=2pt,color=zzttqq] (3,5.1961524227066365)-- (2,3.4641016151377584);
+\draw [line width=2pt,color=zzttqq] (2,3.4641016151377584)-- (3,1.7320508075688774);
+\draw [line width=2pt,color=zzttqq] (0,3.4641016151377557)-- (2,3.4641016151377553);
+\draw [line width=2pt,color=zzttqq] (2,3.4641016151377553)-- (3,5.196152422706631);
+\draw [line width=2pt,color=zzttqq] (3,5.196152422706631)-- (2,6.928203230275508);
+\draw [line width=2pt,color=zzttqq] (2,6.928203230275508)-- (0,6.92820323027551);
+\draw [line width=2pt,color=zzttqq] (0,6.92820323027551)-- (-1,5.196152422706634);
+\draw [line width=2pt,color=zzttqq] (-1,5.196152422706634)-- (0,3.4641016151377557);
+\draw [line width=2pt,color=zzttqq] (-3,1.7320508075688799)-- (-1,1.732050807568879);
+\draw [line width=2pt,color=zzttqq] (-1,1.732050807568879)-- (0,3.464101615137758);
+\draw [line width=2pt,color=zzttqq] (0,3.464101615137758)-- (-1,5.196152422706637);
+\draw [line width=2pt,color=zzttqq] (-1,5.196152422706637)-- (-3,5.196152422706639);
+\draw [line width=2pt,color=zzttqq] (-3,5.196152422706639)-- (-4,3.464101615137761);
+\draw [line width=2pt,color=zzttqq] (-4,3.464101615137761)-- (-3,1.7320508075688799);
+\begin{scriptsize}
+\draw [fill=uuuuuu] (0,0) circle (2pt);
+\draw [fill=black] (2,0) circle (2.5pt);
+\draw [fill=uuuuuu] (3,1.7320508075688774) circle (2pt);
+\draw [fill=uuuuuu] (2,3.4641016151377553) circle (2pt);
+\draw [fill=uuuuuu] (0,3.4641016151377557) circle (2pt);
+\draw [fill=uuuuuu] (-1,1.732050807568879) circle (2pt);
+\draw [fill=uuuuuu] (-1,-1.7320508075688774) circle (2.5pt);
+\draw [fill=uuuuuu] (0,-3.4641016151377553) circle (2.5pt);
+\draw [fill=uuuuuu] (2,-3.4641016151377557) circle (2.5pt);
+\draw [fill=uuuuuu] (3,-1.732050807568879) circle (2.5pt);
+\draw [fill=uuuuuu] (-3,1.7320508075688799) circle (2pt);
+\draw [fill=uuuuuu] (-4,0) circle (2pt);
+\draw [fill=uuuuuu] (-3,-1.7320508075688774) circle (2pt);
+\draw [fill=uuuuuu] (-1,-1.7320508075688792) circle (2pt);
+\draw [fill=uuuuuu] (3,-1.7320508075688772) circle (2pt);
+\draw [fill=uuuuuu] (5,-1.732050807568878) circle (2pt);
+\draw [fill=uuuuuu] (6,0) circle (2pt);
+\draw [fill=uuuuuu] (5,1.7320508075688767) circle (2pt);
+\draw [fill=uuuuuu] (6,3.464101615137755) circle (2pt);
+\draw [fill=uuuuuu] (5,5.196152422706635) circle (2pt);
+\draw [fill=uuuuuu] (3,5.1961524227066365) circle (2pt);
+\draw [fill=uuuuuu] (2,3.4641016151377584) circle (2pt);
+\draw [fill=uuuuuu] (3,5.196152422706631) circle (2pt);
+\draw [fill=uuuuuu] (2,6.928203230275508) circle (2pt);
+\draw [fill=uuuuuu] (0,6.92820323027551) circle (2pt);
+\draw [fill=uuuuuu] (-1,5.196152422706634) circle (2pt);
+\draw [fill=uuuuuu] (0,3.464101615137758) circle (2pt);
+\draw [fill=uuuuuu] (-1,5.196152422706637) circle (2pt);
+\draw [fill=uuuuuu] (-3,5.196152422706639) circle (2pt);
+\draw [fill=uuuuuu] (-4,3.464101615137761) circle (2pt);
+\draw [fill=ududff] (1.0177639918626207,1.708867528348029) circle (2.5pt);
+\draw [fill=ududff] (3.9980568028240433,3.4352566566488454) circle (2.5pt);
+\draw [fill=ududff] (0.999591474722612,5.143473267809653) circle (2.5pt);
+\draw [fill=ududff] (-2.0356274129362246,3.398539424956995) circle (2.5pt);
+\draw [fill=ududff] (-2,0) circle (2.5pt);
+\draw [fill=ududff] (4,0) circle (2.5pt);
+\draw [fill=ududff] (1.0177639918626207,-1.780255762533621) circle (2.5pt);
+\end{scriptsize}
+\end{tikzpicture}
+\end{document}

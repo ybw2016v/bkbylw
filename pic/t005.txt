@@ -1,0 +1,41 @@
+\documentclass[10pt]{article}
+\usepackage{pgf,tikz,pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\pagestyle{empty}
+\begin{document}
+\definecolor{qqwuqq}{rgb}{0,0.39215686274509803,0}
+\definecolor{zzttqq}{rgb}{0.6,0.2,0}
+\definecolor{fuqqzz}{rgb}{0.9568627450980393,0,0.6}
+\definecolor{xdxdff}{rgb}{0.49019607843137253,0.49019607843137253,1}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+\clip(-7.194992758719219,-5.824543307427976) rectangle (7.195799831044691,5.830809368579352);
+\draw [line width=2pt] (-2,1)-- (-2,0);
+\draw [line width=2pt] (-2,0)-- (-3.002633760461551,-0.7922258573916472);
+\draw [line width=2pt] (-2,0)-- (-1.7687124950169182,-1.01522367644791);
+\draw [line width=2pt] (-2,0)-- (-0.9956533889552205,-0.3908297830903744);
+\draw [line width=2pt] (2,1)-- (2,0);
+\draw [line width=2pt] (2,0)-- (0.9956533889552205,-0.3908297830903745);
+\draw [line width=2pt] (2,0)-- (1.768712495016918,-1.0152236764479101);
+\draw [line width=2pt] (2,0)-- (3.002633760461551,-0.7922258573916475);
+\draw [line width=2pt] (0,2)-- (0,-2);
+\begin{scriptsize}
+\draw [fill=xdxdff] (-2,0) circle (2.5pt);
+\draw [fill=fuqqzz] (-2,1) circle (2.5pt);
+\draw [fill=black] (-0.9956533889552205,-0.3908297830903744) circle (2.5pt);
+\draw [fill=zzttqq] (-1.7687124950169182,-1.01522367644791) circle (2.5pt);
+\draw [fill=qqwuqq] (-3.002633760461551,-0.7922258573916472) circle (2.5pt);
+\draw [fill=fuqqzz] (2,1) circle (2.5pt);
+\draw [fill=xdxdff] (2,0) circle (2.5pt);
+\draw [fill=fuqqzz] (2,1) circle (2.5pt);
+\draw [fill=xdxdff] (2,0) circle (2.5pt);
+\draw [fill=xdxdff] (2,0) circle (2.5pt);
+\draw [fill=black] (0.9956533889552205,-0.3908297830903745) circle (2.5pt);
+\draw [fill=xdxdff] (2,0) circle (2.5pt);
+\draw [fill=zzttqq] (1.768712495016918,-1.0152236764479101) circle (2.5pt);
+\draw [fill=xdxdff] (2,0) circle (2.5pt);
+\draw [fill=qqwuqq] (3.002633760461551,-0.7922258573916475) circle (2.5pt);
+\end{scriptsize}
+\end{tikzpicture}
+\end{document}

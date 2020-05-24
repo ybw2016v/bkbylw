@@ -1,0 +1,50 @@
+\documentclass[10pt]{article}
+\usepackage{pgf,tikz,pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\pagestyle{empty}
+\begin{document}
+\definecolor{uuuuuu}{rgb}{0.26666666666666666,0.26666666666666666,0.26666666666666666}
+\definecolor{xdxdff}{rgb}{0.49019607843137253,0.49019607843137253,1}
+\definecolor{uququq}{rgb}{0.25098039215686274,0.25098039215686274,0.25098039215686274}
+\definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+\clip(-7.568420055431509,-14.648982459713856) rectangle (30.651216037856322,15.468248877500034);
+\draw [line width=2pt] (-5,0)-- (5,0);
+\draw [line width=2pt] (0,5)-- (0,-5);
+\draw [rotate around={-50.05724853255913:(-0.585,0.685)},line width=2pt,color=uququq,fill=uququq,fill opacity=0.53] (-0.585,0.685) ellipse (0.9009667929793787cm and 0.4102330582139209cm);
+\draw [rotate around={-129.94275146744084:(0.585,0.685)},line width=2pt,color=uququq,fill=uququq,fill opacity=0.66] (0.585,0.685) ellipse (0.9009667929793787cm and 0.4102330582139209cm);
+\draw [rotate around={50.05724853255913:(-0.585,-0.685)},line width=2pt,color=uququq,fill=uququq,fill opacity=0.72] (-0.585,-0.685) ellipse (0.9009667929793787cm and 0.4102330582139209cm);
+\draw [rotate around={129.94275146744087:(0.585,-0.685)},line width=2pt,color=uququq,fill=uququq,fill opacity=0.69] (0.585,-0.685) ellipse (0.9009667929793787cm and 0.4102330582139209cm);
+\draw (2.114941726218458,4.520121475389473) node[anchor=north west] {$\mathbf{d_{xy},d_{yz},d_{zx}}$};
+\draw [line width=2pt] (7,0)-- (17,0);
+\draw [line width=2pt] (12,5)-- (12,-5);
+\draw [line width=2pt] (19,0)-- (29,0);
+\draw [line width=2pt] (24,5)-- (24,-5);
+\draw [rotate around={90:(12,1.1638436934424887)},line width=2pt,fill=black,fill opacity=0.39] (12,1.1638436934424887) ellipse (1.2260171011811196cm and 0.38546827317293436cm);
+\draw [rotate around={180:(10.83615630655751,0)},line width=2pt,fill=black,fill opacity=0.2] (10.83615630655751,0) ellipse (1.2260171011811196cm and 0.38546827317293436cm);
+\draw [rotate around={-90:(12,-1.1638436934424887)},line width=2pt,fill=black,fill opacity=0.2] (12,-1.1638436934424887) ellipse (1.2260171011811196cm and 0.38546827317293436cm);
+\draw [rotate around={0:(13.16384369344249,0)},line width=2pt,fill=black,fill opacity=0.2] (13.16384369344249,0) ellipse (1.2260171011811196cm and 0.38546827317293436cm);
+\draw [rotate around={0:(24.00254899481813,0)},line width=2pt,fill=black,fill opacity=0.2] (24.00254899481813,0) ellipse (1.6839389847634159cm and 0.7648916185947887cm);
+\draw [rotate around={90:(24,1.4398026937089552)},line width=2pt,fill=black,fill opacity=0.2] (24,1.4398026937089552) ellipse (1.4398026937087463cm and 0.7020750078174347cm);
+\draw [rotate around={-90:(24,-1.4398026937089552)},line width=2pt,fill=black,fill opacity=0.2] (24,-1.4398026937089552) ellipse (1.4398026937087463cm and 0.7020750078174347cm);
+\draw (14.130215120592297,4.520121475389473) node[anchor=north west] {$\mathbf{d_{x^{2}-y^{2}}}$};
+\draw (26.105964589326746,4.520121475389473) node[anchor=north west] {$\mathbf{d_{z^{2}}}$};
+\begin{scriptsize}
+\draw [fill=ududff] (-5,0) circle (2.5pt);
+\draw [fill=ududff] (5,0) circle (2.5pt);
+\draw [fill=ududff] (0,5) circle (2.5pt);
+\draw [fill=ududff] (0,-5) circle (2.5pt);
+\draw [fill=ududff] (7,0) circle (2.5pt);
+\draw [fill=ududff] (17,0) circle (2.5pt);
+\draw [fill=ududff] (12,5) circle (2.5pt);
+\draw [fill=ududff] (12,-5) circle (2.5pt);
+\draw [fill=xdxdff] (19,0) circle (2.5pt);
+\draw [fill=xdxdff] (29,0) circle (2.5pt);
+\draw [fill=ududff] (24,5) circle (2.5pt);
+\draw [fill=ududff] (24,-5) circle (2.5pt);
+\draw [fill=uuuuuu] (12,0) circle (2pt);
+\end{scriptsize}
+\end{tikzpicture}
+\end{document}

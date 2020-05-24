@@ -1,0 +1,51 @@
+\documentclass[10pt]{article}
+\usepackage{pgf,tikz,pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\pagestyle{empty}
+\usepackage{amssymb,fancyhdr,txfonts,pxfonts}
+\begin{document}
+\definecolor{qqwuqq}{rgb}{0,0.39215686274509803,0}
+\definecolor{uuuuuu}{rgb}{0.26666666666666666,0.26666666666666666,0.26666666666666666}
+\definecolor{zzttqq}{rgb}{0.6,0.2,0}
+\definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+\clip(-2.6002252010650246,-4.6898893752016075) rectangle (5.259762267797396,1.2182891248828964);
+\fill[line width=2pt,color=zzttqq,fill=zzttqq,fill opacity=0.10000000149011612] (-1.4,-2.424871130596429) -- (-0.49411828718356193,-1.9352997555018803) -- (-1.1,-1.9052558883257653) -- cycle;
+\fill[line width=2pt,color=zzttqq,fill=zzttqq,fill opacity=0.10000000149011612] (1.4,-2.424871130596429) -- (0.49411828718356215,-1.9352997555018803) -- (1.1,-1.905255888325765) -- cycle;
+\fill[line width=2pt,color=zzttqq,fill=zzttqq,fill opacity=0.10000000149011612] (2.8,0) -- (1.9230778957942223,0.5397308885755209) -- (2.2,0) -- cycle;
+\draw [shift={(0,0)},line width=2pt,color=qqwuqq,fill=qqwuqq,fill opacity=0.10000000149011612] (0,0) -- (-120:0.226078258931805) arc (-120:0:0.226078258931805) -- cycle;
+\draw [line width=2pt] (-0.43301270189221924,0.25)-- (3.464101615137755,-2);
+\draw [line width=2pt] (0,0.5)-- (0,-4);
+\draw [line width=2pt] (0,0.5)-- (0,-4);
+\draw [line width=2pt,color=zzttqq] (-1.4,-2.424871130596429)-- (-0.49411828718356193,-1.9352997555018803);
+\draw [line width=2pt,color=zzttqq] (-0.49411828718356193,-1.9352997555018803)-- (-1.1,-1.9052558883257653);
+\draw [line width=2pt,color=zzttqq] (-1.1,-1.9052558883257653)-- (-1.4,-2.424871130596429);
+\draw [line width=2pt,color=zzttqq] (1.4,-2.424871130596429)-- (0.49411828718356215,-1.9352997555018803);
+\draw [line width=2pt,color=zzttqq] (0.49411828718356215,-1.9352997555018803)-- (1.1,-1.905255888325765);
+\draw [line width=2pt,color=zzttqq] (1.1,-1.905255888325765)-- (1.4,-2.424871130596429);
+\draw [line width=2pt,color=zzttqq] (2.8,0)-- (1.9230778957942223,0.5397308885755209);
+\draw [line width=2pt,color=zzttqq] (1.9230778957942223,0.5397308885755209)-- (2.2,0);
+\draw [line width=2pt,color=zzttqq] (2.2,0)-- (2.8,0);
+\draw [line width=2pt,dash pattern=on 1pt off 1pt] (-1.1,-1.9052558883257653)-- (0,0);
+\draw [line width=2pt,dash pattern=on 1pt off 1pt] (2.2,0)-- (0,0);
+\draw [shift={(0,0)},line width=2pt]  plot[domain=4.71238898038469:5.759586531581287,variable=\t]({1*0.6506244822866917*cos(\t r)+0*0.6506244822866917*sin(\t r)},{0*0.6506244822866917*cos(\t r)+1*0.6506244822866917*sin(\t r)});
+\draw (0.3538640489772274,-0.597872888535937) node[anchor=north west] {$\alpha$/2};
+\draw (0.1805373837961769,-3.416315183219106) node[anchor=north west] {m};
+\draw (3.17984228562479,-2.0673815715926693) node[anchor=north west] {m'};
+\draw (-0.2640831921030396,-0.03267724120642451) node[anchor=north west] {$\alpha$};
+\begin{scriptsize}
+\draw [fill=ududff] (-1.4,-2.424871130596429) circle (2.5pt);
+\draw [fill=ududff] (-0.49411828718356193,-1.9352997555018803) circle (2.5pt);
+\draw [fill=ududff] (-1.1,-1.9052558883257653) circle (2.5pt);
+\draw [fill=ududff] (1.4,-2.424871130596429) circle (2.5pt);
+\draw [fill=ududff] (0.49411828718356215,-1.9352997555018803) circle (2.5pt);
+\draw [fill=ududff] (1.1,-1.905255888325765) circle (2.5pt);
+\draw [fill=ududff] (2.8,0) circle (2.5pt);
+\draw [fill=ududff] (1.9230778957942223,0.5397308885755209) circle (2.5pt);
+\draw [fill=ududff] (2.2,0) circle (2.5pt);
+\draw [fill=uuuuuu] (0,0) circle (2pt);
+\end{scriptsize}
+\end{tikzpicture}
+\end{document}
